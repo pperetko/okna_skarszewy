@@ -1,0 +1,112 @@
+/*!
+ * Start Bootstrap - Small Business HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+}
+
+.navbar-fixed-top .nav {
+    padding: 15px 0;
+}
+
+.navbar-fixed-top .navbar-brand {
+    padding: 0 15px;
+}
+
+footer {
+    padding: 30px;
+    height: 100px;
+    background-color: #000000;
+    color: #ffffff;
+    margin-top: 20px; 
+    width: 100%;
+
+}
+
+@media(min-width:768px) {
+    body {
+        padding-top: 100px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+    }
+
+    .navbar-fixed-top .navbar-brand {
+        padding: 15px 0;
+    }
+}
+
+
+
+
+
+
+
+
+.input-form {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+
+}
+
+#input-email, #input-phone {
+    height: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 480px;
+    font-size: larger;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    padding: 2px;
+}
+
+#submit {
+    height: 30px;
+    width: 150px;
+    /*border-radius: 10px;*/
+}
+
+.left-kontakt{
+/* width: 25%;*/
+
+}
+
+.kontakt {
+   /*display: block;*/
+   width: auto;
+   /* height: 298px;*/
+
+}
+
+
+.mail {
+    Width: 575px;
+    height: 280px;
+    padding: 5px;
+  /*  background-color: #49a53d;*/
+  /*  border-radius: 20px;*/
+  border: 1px solid #000000;
+/*    color: #ffffff;*/
+}
+
+.left-kontakt{
+ padding: 10px;
+
+
+}
+
+.large-font{
+ font-size: large;
+}
+
+
+
+.hidden{
+display: none;
+
+}
+
+
+
