@@ -21,12 +21,12 @@ footer {
     height: 100px;
     background-color: #000000;
     color: #ffffff;
-    margin-top: 20px; 
+    margin-top: 20px;
     width: 100%;
 
 }
 
-@media(min-width:768px) {
+@media (min-width: 768px) {
     body {
         padding-top: 100px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
     }
@@ -35,13 +35,6 @@ footer {
         padding: 15px 0;
     }
 }
-
-
-
-
-
-
-
 
 .input-form {
     padding-top: 20px;
@@ -68,45 +61,47 @@ footer {
     /*border-radius: 10px;*/
 }
 
-.left-kontakt{
-/* width: 25%;*/
+.left-kontakt {
+    /* width: 25%;*/
 
 }
 
 .kontakt {
-   /*display: block;*/
-   width: auto;
-   /* height: 298px;*/
+    /*display: block;*/
+    width: auto;
+    /* height: 298px;*/
 
 }
-
 
 .mail {
     Width: 575px;
     height: 280px;
     padding: 5px;
-  /*  background-color: #49a53d;*/
-  /*  border-radius: 20px;*/
-  border: 1px solid #000000;
-/*    color: #ffffff;*/
+    /*  background-color: #49a53d;*/
+    /*  border-radius: 20px;*/
+    border: 1px solid #000000;
+    /*    color: #ffffff;*/
 }
 
-.left-kontakt{
- padding: 10px;
+.left-kontakt {
+    padding: 10px;
 
+}
+
+.large-font {
+    font-size: large;
+}
+
+.hidden {
+    display: none;
 
 }
 
-.large-font{
- font-size: large;
+.visible {
+    display: block;
 }
 
 
-
-.hidden{
-display: none;
-
-}
 
 
 
