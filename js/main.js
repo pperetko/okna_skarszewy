@@ -82,6 +82,18 @@ function infoOnclick(aparam) {
     document.getElementById('dobroplast-profil-6').setAttribute('style', 'display:none');
     document.getElementById('dobroplast-profil-5').style.display = 'none';
     document.getElementById('dobroplast-profil-6').style.display = 'none';
+    document.getElementById('admar-profil-1').setAttribute('style', 'display:none');
+    document.getElementById('admar-profil-2').setAttribute('style', 'display:none');
+    document.getElementById('admar-profil-3').setAttribute('style', 'display:none');
+    document.getElementById('artus-profil-1').setAttribute('style', 'display:none');
+    document.getElementById('sztukmar-profil-1').setAttribute('style', 'display:none');
+    document.getElementById('admar-profil-1').style.display = 'none';
+    document.getElementById('admar-profil-2').style.display = 'none';
+    document.getElementById('admar-profil-3').style.display = 'none';
+    document.getElementById('artus-profil-1').style.display = 'none';
+    document.getElementById('sztukmar-profil-1').style.display = 'none';
+
+
     if (aparam === 1) {
         document.getElementById('dobroplast-profil-1').style.display = 'block';
         document.getElementById('dobroplast-profil-2').style.display = 'block';
@@ -95,9 +107,23 @@ function infoOnclick(aparam) {
         document.getElementById('dobroplast-profil-6').style.display = 'block';
         document.getElementById('dobroplast-profil-5').setAttribute('style', 'display:block');
         document.getElementById('dobroplast-profil-6').setAttribute('style', 'display:block');
-    }
 
+    } else
+    if (aparam === 2) {
+        document.getElementById('admar-profil-1').setAttribute('style', 'display:block');
+        document.getElementById('admar-profil-2').setAttribute('style', 'display:block');
+        document.getElementById('admar-profil-3').setAttribute('style', 'display:block');
+        document.getElementById('artus-profil-1').setAttribute('style', 'display:block');
+        document.getElementById('sztukmar-profil-1').setAttribute('style', 'display:block');
+        document.getElementById('admar-profil-1').style.display = 'block';
+        document.getElementById('admar-profil-2').style.display = 'block';
+        document.getElementById('admar-profil-3').style.display = 'block';
+        document.getElementById('artus-profil-1').style.display = 'block';
+        document.getElementById('sztukmar-profil-1').style.display = 'block';
+
+    }
 }
+
 
 
 
