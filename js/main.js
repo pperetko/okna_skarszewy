@@ -87,11 +87,13 @@ function infoOnclick(aparam) {
     document.getElementById('admar-profil-3').setAttribute('style', 'display:none');
     document.getElementById('artus-profil-1').setAttribute('style', 'display:none');
     document.getElementById('sztukmar-profil-1').setAttribute('style', 'display:none');
+    document.getElementById('sztukmar-profil-2').setAttribute('style', 'display:none');
     document.getElementById('admar-profil-1').style.display = 'none';
     document.getElementById('admar-profil-2').style.display = 'none';
     document.getElementById('admar-profil-3').style.display = 'none';
     document.getElementById('artus-profil-1').style.display = 'none';
     document.getElementById('sztukmar-profil-1').style.display = 'none';
+    document.getElementById('sztukmar-profil-2').style.display = 'none';
 
 
     if (aparam === 1) {
@@ -115,11 +117,13 @@ function infoOnclick(aparam) {
         document.getElementById('admar-profil-3').setAttribute('style', 'display:block');
         document.getElementById('artus-profil-1').setAttribute('style', 'display:block');
         document.getElementById('sztukmar-profil-1').setAttribute('style', 'display:block');
+        document.getElementById('sztukmar-profil-2').setAttribute('style', 'display:block');
         document.getElementById('admar-profil-1').style.display = 'block';
         document.getElementById('admar-profil-2').style.display = 'block';
         document.getElementById('admar-profil-3').style.display = 'block';
         document.getElementById('artus-profil-1').style.display = 'block';
         document.getElementById('sztukmar-profil-1').style.display = 'block';
+        document.getElementById('sztukmar-profil-2').style.display = 'block';
 
     }
 }

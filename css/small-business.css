@@ -58,7 +58,12 @@ footer {
 #submit {
     height: 30px;
     width: 150px;
+    color: black;
     /*border-radius: 10px;*/
+}
+#submit:hover{
+    color: white;
+
 }
 
 .left-kontakt {
@@ -79,7 +84,7 @@ footer {
     padding: 5px;
     /*  background-color: #49a53d;*/
     /*  border-radius: 20px;*/
-    border: 1px solid #000000;
+    /*border: 1px solid #000000;*/
     /*    color: #ffffff;*/
 }
 
@@ -101,6 +106,33 @@ footer {
     display: block;
 }
 
+#row-profile, #row-form{
+ margin-top: 20px;
+
+}
+#row-form{
+ background-color: #a51724;
+ color: white;
+
+}
+
+.img-profil{
+ margin-bottom: 10px;
+    mso-padding-bottom-alt: 10px;
+
+}
+
+
+
+
+.ul-sztukmar-zalety{
+    background-color: #a51724;
+    color: white;
+    width:330px;
+    padding: 10px;
+    margin-top: 20px;
+
+}
 
 
 
