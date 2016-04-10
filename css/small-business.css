@@ -53,6 +53,7 @@ footer {
     border-radius: 5px;
     border: 1px solid #000000;
     padding: 2px;
+    color: black;
 }
 
 #submit {
@@ -134,6 +135,25 @@ footer {
 
 }
 
+.dane-kontaktowe{
+   background-color: #bce8f1;
+   width: 340px;
+   padding: 10px;
+   border-radius: 15px;
+
+}
+
+
+.pasek{
+
+ background-color: orange;
+
+}
+
+body{
+background-color: rgba(59, 255, 226, 0.31);
+
+}
 
 
 

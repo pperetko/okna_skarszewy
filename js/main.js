@@ -94,7 +94,12 @@ function infoOnclick(aparam) {
     document.getElementById('artus-profil-1').style.display = 'none';
     document.getElementById('sztukmar-profil-1').style.display = 'none';
     document.getElementById('sztukmar-profil-2').style.display = 'none';
-
+    document.getElementById('wojar-profil-1').style.display = 'none';
+    document.getElementById('wojar-profil-2').style.display = 'none';
+    document.getElementById('wojar-profil-1').setAttribute('style', 'display:none');
+    document.getElementById('wojar-profil-2').setAttribute('style', 'display:none');
+    document.getElementById('wojar-profil-3').setAttribute('style', 'display:none');
+    document.getElementById('wojar-profil-3').setAttribute('style', 'display:none');
 
     if (aparam === 1) {
         document.getElementById('dobroplast-profil-1').style.display = 'block';
@@ -124,6 +129,15 @@ function infoOnclick(aparam) {
         document.getElementById('artus-profil-1').style.display = 'block';
         document.getElementById('sztukmar-profil-1').style.display = 'block';
         document.getElementById('sztukmar-profil-2').style.display = 'block';
+
+    } else
+    if (aparam===3){
+        document.getElementById('wojar-profil-1').style.display = 'block';
+        document.getElementById('wojar-profil-1').setAttribute('style', 'display:block');
+        document.getElementById('wojar-profil-2').style.display = 'block';
+        document.getElementById('wojar-profil-2').setAttribute('style', 'display:block');
+        document.getElementById('wojar-profil-3').style.display = 'block';
+        document.getElementById('wojar-profil-3').setAttribute('style', 'display:block');
 
     }
 }
